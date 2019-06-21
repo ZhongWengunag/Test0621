@@ -7,6 +7,8 @@ public class Util {
     public static int getLocalTime(){
         Date date = new Date();
         int d = date.getDate();
+        int y = date.getYear();
         return d;
+
     }
 }
