@@ -1,3 +1,5 @@
+import com.sysmh.test.Util;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -5,6 +7,8 @@ public class Main {
         test();
     }
     private static  void test(){
-        System.out.println("hahah");
+        Util util = new Util();
+        int d = util.getLocalTime();
+        System.out.println(d);
     }
 }
