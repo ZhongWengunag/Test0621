@@ -10,6 +10,7 @@ public class Main {
         Util util = new Util();
         int d = util.getLocalTime();
         System.out.println(d);
+        System.out.println("ok");
 
     }
 }
