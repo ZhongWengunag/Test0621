@@ -11,4 +11,8 @@ public class Util {
         return d;
 
     }
+
+    public static  String getText(){
+        return "hello world";
+    }
 }
